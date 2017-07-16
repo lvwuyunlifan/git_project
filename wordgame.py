@@ -6,7 +6,7 @@ times = 3
 secret = random.randint(1, 10)
 guess = 0
 
-print("不妨猜一下小甲鱼现在心里想的是哪个数字：", end=" ")
+print("不妨猜一下小甲鱼现在心里想的是哪个数字：", end=' ')
 
 while (guess != secret) and (times > 0):
     temp = input()
@@ -22,7 +22,7 @@ while (guess != secret) and (times > 0):
             print("嘿，小了，小了~~~")
         if times > 0:
             print("再试一次吧：", end=" ")
-            else:
+        else:
             print("机会用光咯T_T")
 
 print("游戏结束，不玩啦^_^")
